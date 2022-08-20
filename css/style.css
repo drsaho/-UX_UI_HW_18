@@ -118,6 +118,7 @@ into a grid container.
 
 .workGrid{
     display: grid;
+    grid-area: auto;
 }
 
 /* Step 6: Code a Mobile Media Query to Make Your Design Responsive for
