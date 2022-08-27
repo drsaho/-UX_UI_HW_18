@@ -75,9 +75,7 @@ make it match your design and style accordingly.
 
 .flexContainer{
     display: flex;
-    align-items: center;
-    margin: 15px;
-    /*background-color: #383838;
+        /*background-color: #383838;
     color: aliceblue;*/
     
    
@@ -87,19 +85,23 @@ make it match your design and style accordingly.
 .flex-item{ 
     width: 200px;
     margin: 10px;
+    border-bottom: #383838;
+    background-color: aliceblue;
+    
+
 
 }
 
 .flexChild1{
-    width: 33%;
-    margin: 25px;
-    padding: 10px;
+    min-height: auto;
     
 }
 .flexChild2{
-    width: 75%;
-    margin: 50px;
-    padding: 10px;
+    min-height: auto;
+    
+}
+.flexChild3{
+    min-height: auto;
     
 }
 
